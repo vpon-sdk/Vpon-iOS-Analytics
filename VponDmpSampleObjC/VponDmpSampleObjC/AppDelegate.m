@@ -28,9 +28,10 @@
     id<VATracker> traker = analytics.defaultTracker;
     
     [analytics setLicenseKey:@"licenseKey"];
-    [traker sendLaunchEvent:nil];
+    [traker sendLaunchEvent:@"customID"];
     
-    [traker send:[[VpadnDictionaryBuilder createEventWithEventType:Event_Login customID:@"" extraData:nil] build]];
+    NSMutableDictionary *extraData = [[NSMutableDictionary alloc] init];
+    [traker send:[[VpadnDictionaryBuilder createEventWithEventType:Event_Login customID:@"customID" extraData:extraData] build]];
     
     
 //    [traker send:[[VpadnDictionaryBuilder createEventWithEventType:Event_AddToCart customID:@"" extraData:nil] build]];

@@ -22,10 +22,12 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+    NSMutableDictionary *extraData = [[NSMutableDictionary alloc] init];
     [[VpadnAnalytics sharedInstance].defaultTracker send:[[VpadnDictionaryBuilder
                                                            createEventWithEventType:Event_Custom
-                                                           customID:@"tettetete"
-                                                           extraData:nil]
+                                                           customID:@"customID"
+                                                           extraData:extraData]
                                                           build]];
 }
 
@@ -57,7 +59,7 @@
     int iRandom = arc4random_uniform(10);
     [[VpadnAnalytics sharedInstance].defaultTracker send:[[VpadnDictionaryBuilder
                                                            createEventWithEventType:iRandom
-                                                           customID:nil
+                                                           customID:@"customID"
                                                            extraData:dicData]
                                                           build]];
 }
