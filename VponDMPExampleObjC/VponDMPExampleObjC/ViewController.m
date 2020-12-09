@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "VpadnAnalytics.h"
+#import <VponDataAnalytics/VponDataAnalytics.h>
 
 @interface ViewController ()
 
@@ -20,8 +20,9 @@
 }
 
 - (IBAction) sendEvent:(id)sender {
-    VpadnAnaDictionaryBuilder *builder = [VpadnAnaDictionaryBuilder createEventWithEventName:@"login" extraData:[@{} mutableCopy]];
-    [[VpadnAnalytics sharedInstance].defaultTracker send:builder];
+    VDABuilder *builder = [VDABuilder createEventWithEventName:@"login" extraData:nil];
+    VDATracker *tracker = [[VDATracker alloc] init];
+    [tracker send:builder];
 }
 
 

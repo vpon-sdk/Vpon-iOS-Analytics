@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import VponDataAnalytics
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,10 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let config = VpadnAnalytics.sharedInstance()
-        config?.setLicenseKey("testkey", withCustomID: "", with: .default)
-        config?.setDebugMode(true)
-        config?.initialize()
+        let config = VDAConfiguration()
+        config.setLicenseKey("testkey", withCustomID: "customID", withOptIn: .default)
+        config.setDebugMode(true)
+        config.initialize()
         
         return true
     }

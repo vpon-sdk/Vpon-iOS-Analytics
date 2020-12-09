@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0629DCB3258068D100C077DE /* VponDataAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0629DCB2258068D100C077DE /* VponDataAnalytics.framework */; };
 		0679B970256BAA11002FE708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0679B96F256BAA11002FE708 /* AppDelegate.m */; };
 		0679B976256BAA11002FE708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0679B975256BAA11002FE708 /* ViewController.m */; };
 		0679B979256BAA11002FE708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0679B977256BAA11002FE708 /* Main.storyboard */; };
@@ -19,10 +20,11 @@
 		0679B9A7256BB216002FE708 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9A6256BB216002FE708 /* CoreTelephony.framework */; };
 		0679B9A9256BB222002FE708 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9A8256BB222002FE708 /* SystemConfiguration.framework */; };
 		0679B9AB256BB226002FE708 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9AA256BB226002FE708 /* WebKit.framework */; };
-		0679B9CC256BBAB8002FE708 /* i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9CA256BBAB8002FE708 /* i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a */; };
+		06D2CEB12578794500BE2443 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D2CEB02578794500BE2443 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0629DCB2258068D100C077DE /* VponDataAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VponDataAnalytics.framework; path = VponDMPExampleObjC/VponDataAnalytics.framework; sourceTree = "<group>"; };
 		0679B96B256BAA11002FE708 /* VponDMPExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VponDMPExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0679B96E256BAA11002FE708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0679B96F256BAA11002FE708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,10 +41,8 @@
 		0679B9A6256BB216002FE708 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0679B9A8256BB222002FE708 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0679B9AA256BB226002FE708 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		0679B9C8256BBAB8002FE708 /* VATracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VATracker.h; sourceTree = "<group>"; };
-		0679B9C9256BBAB8002FE708 /* VpadnAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpadnAnalytics.h; sourceTree = "<group>"; };
-		0679B9CA256BBAB8002FE708 /* i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a"; sourceTree = "<group>"; };
-		0679B9CB256BBAB8002FE708 /* VpadnAnaDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpadnAnaDictionaryBuilder.h; sourceTree = "<group>"; };
+		06D2CEAF2578794500BE2443 /* VponDMPExampleObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VponDMPExampleObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		06D2CEB02578794500BE2443 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0679B9AB256BB226002FE708 /* WebKit.framework in Frameworks */,
+				0629DCB3258068D100C077DE /* VponDataAnalytics.framework in Frameworks */,
 				0679B9A3256BB208002FE708 /* CoreLocation.framework in Frameworks */,
-				0679B9CC256BBAB8002FE708 /* i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a in Frameworks */,
 				0679B9A7256BB216002FE708 /* CoreTelephony.framework in Frameworks */,
 				0679B9A1256BB202002FE708 /* AdSupport.framework in Frameworks */,
 				0679B9A9256BB222002FE708 /* SystemConfiguration.framework in Frameworks */,
@@ -83,16 +83,17 @@
 		0679B96D256BAA11002FE708 /* VponDMPExampleObjC */ = {
 			isa = PBXGroup;
 			children = (
+				06D2CEB02578794500BE2443 /* File.swift */,
 				0679B96E256BAA11002FE708 /* AppDelegate.h */,
 				0679B96F256BAA11002FE708 /* AppDelegate.m */,
 				0679B974256BAA11002FE708 /* ViewController.h */,
 				0679B975256BAA11002FE708 /* ViewController.m */,
-				0679B9C7256BBAB8002FE708 /* VponDMP */,
 				0679B977256BAA11002FE708 /* Main.storyboard */,
 				0679B97A256BAA12002FE708 /* Assets.xcassets */,
 				0679B97C256BAA12002FE708 /* LaunchScreen.storyboard */,
 				0679B97F256BAA12002FE708 /* Info.plist */,
 				0679B980256BAA12002FE708 /* main.m */,
+				06D2CEAF2578794500BE2443 /* VponDMPExampleObjC-Bridging-Header.h */,
 			);
 			path = VponDMPExampleObjC;
 			sourceTree = "<group>";
@@ -100,6 +101,7 @@
 		0679B99F256BB202002FE708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0629DCB2258068D100C077DE /* VponDataAnalytics.framework */,
 				0679B9AA256BB226002FE708 /* WebKit.framework */,
 				0679B9A8256BB222002FE708 /* SystemConfiguration.framework */,
 				0679B9A6256BB216002FE708 /* CoreTelephony.framework */,
@@ -108,17 +110,6 @@
 				0679B9A0256BB202002FE708 /* AdSupport.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0679B9C7256BBAB8002FE708 /* VponDMP */ = {
-			isa = PBXGroup;
-			children = (
-				0679B9C8256BBAB8002FE708 /* VATracker.h */,
-				0679B9C9256BBAB8002FE708 /* VpadnAnalytics.h */,
-				0679B9CA256BBAB8002FE708 /* i-dmp-sdk-2011231737-20201109-8cfceda-v1.3.4.a */,
-				0679B9CB256BBAB8002FE708 /* VpadnAnaDictionaryBuilder.h */,
-			);
-			path = VponDMP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +142,7 @@
 				TargetAttributes = {
 					0679B96A256BAA11002FE708 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -191,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0679B976256BAA11002FE708 /* ViewController.m in Sources */,
+				06D2CEB12578794500BE2443 /* File.swift in Sources */,
 				0679B970256BAA11002FE708 /* AppDelegate.m in Sources */,
 				0679B981256BAA12002FE708 /* main.m in Sources */,
 			);
@@ -335,8 +328,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55Z8U5LW3G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VponDMPExampleObjC",
+				);
 				INFOPLIST_FILE = VponDMPExampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,9 +344,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VponDMPExampleObjC/VponDMP",
+					"$(PROJECT_DIR)/VponDMPExampleObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpontw.VponDMPExampleObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VponDMPExampleObjC/VponDMPExampleObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -358,8 +360,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55Z8U5LW3G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VponDMPExampleObjC",
+				);
 				INFOPLIST_FILE = VponDMPExampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,9 +376,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VponDMPExampleObjC/VponDMP",
+					"$(PROJECT_DIR)/VponDMPExampleObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpontw.VponDMPExampleObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VponDMPExampleObjC/VponDMPExampleObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

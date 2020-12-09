@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import VponDataAnalytics
 
 class ViewController: UIViewController {
 
@@ -15,8 +16,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendEvent() {
-        let builder = VpadnAnaDictionaryBuilder.createEvent(withEventName: "login", extraData: [:])
-        VpadnAnalytics.sharedInstance()?.defaultTracker.send(builder)
+        let tracker = VDATracker()
+        let builder = VDABuilder.createEventWithEventName("login", extraData: nil)
+        tracker.send(builder)
     }
 }
 

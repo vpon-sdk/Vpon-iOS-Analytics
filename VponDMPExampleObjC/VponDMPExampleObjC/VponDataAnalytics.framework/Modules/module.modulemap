@@ -1,0 +1,11 @@
+framework module VponDataAnalytics {
+  umbrella header "VponDataAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module VponDataAnalytics.Swift {
+    header "VponDataAnalytics-Swift.h"
+    requires objc
+}

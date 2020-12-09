@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "VpadnAnalytics.h"
+#import <VponDataAnalytics/VponDataAnalytics.h>
 
 @interface AppDelegate ()
 
@@ -18,9 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    VpadnAnalytics *config = [VpadnAnalytics sharedInstance];
-    [config setLicenseKey:@"testkey" withCustomID:@"" withOptIn:VpadnAnOptInDefault];
-    [config setDebugMode:NO];
+    VDAConfiguration *config = [[VDAConfiguration alloc] init];
+    [config setLicenseKey:@"testKey" withCustomID:@"customID" withOptIn:VDAOptInDefault];
+    [config setDebugMode:YES];
     [config initialize];
     
     return YES;
