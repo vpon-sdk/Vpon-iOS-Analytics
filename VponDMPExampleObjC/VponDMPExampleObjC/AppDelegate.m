@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    VDAConfiguration *config = [[VDAConfiguration alloc] init];
+    VDAConfiguration *config = [VDAConfiguration sharedInstance];
     [config setLicenseKey:@"testKey" withCustomID:@"customID" withOptIn:VDAOptInDefault];
     [config setDebugMode:YES];
     [config initialize];

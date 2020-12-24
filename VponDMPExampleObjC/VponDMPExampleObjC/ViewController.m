@@ -20,8 +20,8 @@
 }
 
 - (IBAction) sendEvent:(id)sender {
-    VDABuilder *builder = [VDABuilder createEventWithEventName:@"login" extraData:nil];
     VDATracker *tracker = [[VDATracker alloc] init];
+    VDABuilder *builder = [VDABuilder createEventWithEventName:@"login" extraData:@{@"key": @"value"}];
     [tracker send:builder];
 }
 

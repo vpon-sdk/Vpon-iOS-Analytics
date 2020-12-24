@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func sendEvent() {
         let tracker = VDATracker()
-        let builder = VDABuilder.createEventWithEventName("login", extraData: nil)
+        let builder = VDABuilder.createEventWithEventName("login", extraData: ["key": "value"])
         tracker.send(builder)
     }
 }

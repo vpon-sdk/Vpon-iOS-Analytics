@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let config = VDAConfiguration()
+        let config = VDAConfiguration.sharedInstance
         config.setLicenseKey("testkey", withCustomID: "customID", withOptIn: .default)
         config.setDebugMode(true)
         config.initialize()

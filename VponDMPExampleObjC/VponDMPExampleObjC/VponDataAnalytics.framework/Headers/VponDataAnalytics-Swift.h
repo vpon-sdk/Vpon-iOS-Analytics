@@ -222,10 +222,16 @@ SWIFT_CLASS("_TtC17VponDataAnalytics10VDABuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class VDATracker;
 enum VDAOptIn : NSInteger;
 
 SWIFT_CLASS("_TtC17VponDataAnalytics16VDAConfiguration")
 @interface VDAConfiguration : NSObject
+/// Singleton
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VDAConfiguration * _Nonnull sharedInstance;)
++ (VDAConfiguration * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+/// Default Tracker
+@property (nonatomic, readonly, strong) VDATracker * _Nonnull tracker;
 /// VDA Version
 ///
 /// returns:
