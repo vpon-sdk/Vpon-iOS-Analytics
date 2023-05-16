@@ -19,9 +19,13 @@
     // Override point for customization after application launch.
     
     VDAConfiguration *config = [VDAConfiguration sharedInstance];
-    [config setLicenseKey:@"testKey" withCustomID:@"customID" withOptIn:VDAOptInDefault];
+    [config setLicenseKey:@"testkey" withCustomID:@"customID" withOptIn:VDAOptInConsent];
     [config setDebugMode:YES];
     [config initialize];
+    
+    // Call startBackgroundLocationUpdate after initializing SDK
+    // You can set update frequency to high, mid or low
+    [config startBackgroundLocationUpdateWithFrequency:VDAFrequencyMid];
     
     return YES;
 }

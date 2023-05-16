@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0629DCB725806A0000C077DE /* VponDataAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0629DCB625806A0000C077DE /* VponDataAnalytics.framework */; };
 		0679B92E256B977E002FE708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B92D256B977E002FE708 /* AppDelegate.swift */; };
 		0679B932256B977E002FE708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B931256B977E002FE708 /* ViewController.swift */; };
 		0679B935256B977E002FE708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0679B933256B977E002FE708 /* Main.storyboard */; };
@@ -19,10 +18,10 @@
 		0679B95B256B99C9002FE708 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95A256B99C9002FE708 /* CoreTelephony.framework */; };
 		0679B95D256B99D1002FE708 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95C256B99D1002FE708 /* WebKit.framework */; };
 		0679B95F256B99D6002FE708 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95E256B99D6002FE708 /* AdSupport.framework */; };
+		D0BB39B02A1385D200BBD7CE /* VponDataAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0629DCB625806A0000C077DE /* VponDataAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VponDataAnalytics.framework; path = VponDMPExampleSwift/VponDataAnalytics.framework; sourceTree = "<group>"; };
 		0679B92A256B977E002FE708 /* VponDMPExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VponDMPExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0679B92D256B977E002FE708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0679B931256B977E002FE708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		0679B95A256B99C9002FE708 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0679B95C256B99D1002FE708 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		0679B95E256B99D6002FE708 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VponDataAnalytics.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +45,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0679B957256B9976002FE708 /* CoreLocation.framework in Frameworks */,
-				0629DCB725806A0000C077DE /* VponDataAnalytics.framework in Frameworks */,
 				0679B95D256B99D1002FE708 /* WebKit.framework in Frameworks */,
 				0679B95B256B99C9002FE708 /* CoreTelephony.framework in Frameworks */,
 				0679B959256B99C2002FE708 /* SystemConfiguration.framework in Frameworks */,
 				0679B955256B9970002FE708 /* CoreMotion.framework in Frameworks */,
 				0679B95F256B99D6002FE708 /* AdSupport.framework in Frameworks */,
+				D0BB39B02A1385D200BBD7CE /* VponDataAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		0679B953256B9970002FE708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0629DCB625806A0000C077DE /* VponDataAnalytics.framework */,
+				D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */,
 				0679B95E256B99D6002FE708 /* AdSupport.framework */,
 				0679B95C256B99D1002FE708 /* WebKit.framework */,
 				0679B95A256B99C9002FE708 /* CoreTelephony.framework */,

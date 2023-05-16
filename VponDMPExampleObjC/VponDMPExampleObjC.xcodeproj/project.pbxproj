@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0629DCB3258068D100C077DE /* VponDataAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0629DCB2258068D100C077DE /* VponDataAnalytics.framework */; };
 		0679B970256BAA11002FE708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0679B96F256BAA11002FE708 /* AppDelegate.m */; };
 		0679B976256BAA11002FE708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0679B975256BAA11002FE708 /* ViewController.m */; };
 		0679B979256BAA11002FE708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0679B977256BAA11002FE708 /* Main.storyboard */; };
@@ -21,10 +20,10 @@
 		0679B9A9256BB222002FE708 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9A8256BB222002FE708 /* SystemConfiguration.framework */; };
 		0679B9AB256BB226002FE708 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B9AA256BB226002FE708 /* WebKit.framework */; };
 		06D2CEB12578794500BE2443 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D2CEB02578794500BE2443 /* File.swift */; };
+		D0BB39B22A13867100BBD7CE /* VponDataAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB39B12A13867100BBD7CE /* VponDataAnalytics.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0629DCB2258068D100C077DE /* VponDataAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VponDataAnalytics.framework; path = VponDMPExampleObjC/VponDataAnalytics.framework; sourceTree = "<group>"; };
 		0679B96B256BAA11002FE708 /* VponDMPExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VponDMPExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0679B96E256BAA11002FE708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0679B96F256BAA11002FE708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		0679B9AA256BB226002FE708 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		06D2CEAF2578794500BE2443 /* VponDMPExampleObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VponDMPExampleObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		06D2CEB02578794500BE2443 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D0BB39B12A13867100BBD7CE /* VponDataAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VponDataAnalytics.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +51,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0679B9AB256BB226002FE708 /* WebKit.framework in Frameworks */,
-				0629DCB3258068D100C077DE /* VponDataAnalytics.framework in Frameworks */,
 				0679B9A3256BB208002FE708 /* CoreLocation.framework in Frameworks */,
 				0679B9A7256BB216002FE708 /* CoreTelephony.framework in Frameworks */,
 				0679B9A1256BB202002FE708 /* AdSupport.framework in Frameworks */,
 				0679B9A9256BB222002FE708 /* SystemConfiguration.framework in Frameworks */,
 				0679B9A5256BB210002FE708 /* CoreMotion.framework in Frameworks */,
+				D0BB39B22A13867100BBD7CE /* VponDataAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		0679B99F256BB202002FE708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0629DCB2258068D100C077DE /* VponDataAnalytics.framework */,
+				D0BB39B12A13867100BBD7CE /* VponDataAnalytics.xcframework */,
 				0679B9AA256BB226002FE708 /* WebKit.framework */,
 				0679B9A8256BB222002FE708 /* SystemConfiguration.framework */,
 				0679B9A6256BB216002FE708 /* CoreTelephony.framework */,

@@ -16,9 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let config = VDAConfiguration.sharedInstance
-        config.setLicenseKey("testkey", withCustomID: "customID", withOptIn: .default)
+        config.setLicenseKey("testkey", withCustomID: "customID", withOptIn: .consent)
         config.setDebugMode(true)
         config.initialize()
+        
+        // Call startBackgroundLocationUpdate after initializing SDK
+        // You can set update frequency to .high / .mid / .low
+        config.startBackgroundLocationUpdate(frequency: .mid)
         
         return true
     }

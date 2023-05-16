@@ -1,0 +1,65 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VponDataAnalytics
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
+import CoreLocation
+import CoreTelephony
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+@_exported import VponDataAnalytics
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc public enum VDAOptIn : Swift.Int {
+  case `default` = -1
+  case noconsent = 0
+  case consent = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum VDAFrequency : Swift.Int {
+  case high = 0
+  case mid = 1
+  case low = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc open class VDAConfiguration : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: VponDataAnalytics.VDAConfiguration
+  @objc final public let tracker: VponDataAnalytics.VDATracker
+  @objc public func getVersion() -> Swift.String
+  @objc public func setLicenseKey(_ licenseKey: Swift.String!, withCustomID customID: Swift.String!, withOptIn optIn: VponDataAnalytics.VDAOptIn)
+  @objc public func setDebugMode(_ flag: Swift.Bool)
+  @objc public func initialize()
+  @objc public func startBackgroundLocationUpdate(frequency: VponDataAnalytics.VDAFrequency = .mid)
+  @objc public func stopBackgroundLocationUpdate()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class VDABuilder : ObjectiveC.NSObject {
+  @objc public class func createEventWithEventName(_ name: Swift.String!, extraData: [Swift.String : Any]?) -> VponDataAnalytics.VDABuilder
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class VDATracker : ObjectiveC.NSObject {
+  @objc public func send(_ builder: VponDataAnalytics.VDABuilder!)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension VponDataAnalytics.VDAOptIn : Swift.Equatable {}
+extension VponDataAnalytics.VDAOptIn : Swift.Hashable {}
+extension VponDataAnalytics.VDAOptIn : Swift.RawRepresentable {}
+extension VponDataAnalytics.VDAFrequency : Swift.Equatable {}
+extension VponDataAnalytics.VDAFrequency : Swift.Hashable {}
+extension VponDataAnalytics.VDAFrequency : Swift.RawRepresentable {}

@@ -20,8 +20,26 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>$(PRODUCT_NAME) use canlendar </string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) use camera </string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) use location </string>
+	<key>NSLocationUsageDescription</key>
+	<string>$(PRODUCT_NAME) use location </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) use location </string>
+	<key>NSMotionUsageDescription</key>
+	<string>$(PRODUCT_NAME) use motion</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) use photo </string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -43,19 +61,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSCalendarsUsageDescription</key>
-    <string>$(PRODUCT_NAME) use canlendar </string>
-    <key>NSCameraUsageDescription</key>
-    <string>$(PRODUCT_NAME) use camera </string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>$(PRODUCT_NAME) use location </string>
-    <key>NSLocationUsageDescription</key>
-    <string>$(PRODUCT_NAME) use location </string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>$(PRODUCT_NAME) use location </string>
-    <key>NSMotionUsageDescription</key>
-    <string>$(PRODUCT_NAME) use motion</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>$(PRODUCT_NAME) use photo </string>
 </dict>
 </plist>

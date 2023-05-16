@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _locationManager = [[CLLocationManager alloc] init];
+    [_locationManager requestAlwaysAuthorization];
+    [_locationManager requestWhenInUseAuthorization];
 }
 
 - (IBAction) sendEvent:(id)sender {

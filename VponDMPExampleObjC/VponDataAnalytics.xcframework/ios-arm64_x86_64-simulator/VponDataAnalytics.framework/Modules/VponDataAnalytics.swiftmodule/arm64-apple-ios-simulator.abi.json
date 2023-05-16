@@ -1,0 +1,2994 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VDAOptIn",
+        "printedName": "VDAOptIn",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAOptIn.Type) -> VponDataAnalytics.VDAOptIn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAOptIn",
+                    "printedName": "VponDataAnalytics.VDAOptIn",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAOptIn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAOptIn",
+                        "printedName": "VponDataAnalytics.VDAOptIn",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAOptIn@VDAOptInDefault",
+            "mangledName": "$s17VponDataAnalytics8VDAOptInO7defaultyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "noconsent",
+            "printedName": "noconsent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAOptIn.Type) -> VponDataAnalytics.VDAOptIn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAOptIn",
+                    "printedName": "VponDataAnalytics.VDAOptIn",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAOptIn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAOptIn",
+                        "printedName": "VponDataAnalytics.VDAOptIn",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAOptIn@VDAOptInNoconsent",
+            "mangledName": "$s17VponDataAnalytics8VDAOptInO9noconsentyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "consent",
+            "printedName": "consent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAOptIn.Type) -> VponDataAnalytics.VDAOptIn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAOptIn",
+                    "printedName": "VponDataAnalytics.VDAOptIn",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAOptIn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAOptIn",
+                        "printedName": "VponDataAnalytics.VDAOptIn",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAOptIn@VDAOptInConsent",
+            "mangledName": "$s17VponDataAnalytics8VDAOptInO7consentyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VponDataAnalytics.VDAOptIn?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAOptIn",
+                    "printedName": "VponDataAnalytics.VDAOptIn",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17VponDataAnalytics8VDAOptInO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17VponDataAnalytics8VDAOptInO8rawValueACSgSi_tcfc",
+            "moduleName": "VponDataAnalytics",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17VponDataAnalytics8VDAOptInO8rawValueSivp",
+            "mangledName": "$s17VponDataAnalytics8VDAOptInO8rawValueSivp",
+            "moduleName": "VponDataAnalytics",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17VponDataAnalytics8VDAOptInO8rawValueSivg",
+                "mangledName": "$s17VponDataAnalytics8VDAOptInO8rawValueSivg",
+                "moduleName": "VponDataAnalytics",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@VponDataAnalytics@E@VDAOptIn",
+        "mangledName": "$s17VponDataAnalytics8VDAOptInO",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VDAFrequency",
+        "printedName": "VDAFrequency",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAFrequency.Type) -> VponDataAnalytics.VDAFrequency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAFrequency",
+                    "printedName": "VponDataAnalytics.VDAFrequency",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAFrequency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAFrequency",
+                        "printedName": "VponDataAnalytics.VDAFrequency",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAFrequency@VDAFrequencyHigh",
+            "mangledName": "$s17VponDataAnalytics12VDAFrequencyO4highyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "mid",
+            "printedName": "mid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAFrequency.Type) -> VponDataAnalytics.VDAFrequency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAFrequency",
+                    "printedName": "VponDataAnalytics.VDAFrequency",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAFrequency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAFrequency",
+                        "printedName": "VponDataAnalytics.VDAFrequency",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAFrequency@VDAFrequencyMid",
+            "mangledName": "$s17VponDataAnalytics12VDAFrequencyO3midyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VponDataAnalytics.VDAFrequency.Type) -> VponDataAnalytics.VDAFrequency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAFrequency",
+                    "printedName": "VponDataAnalytics.VDAFrequency",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VponDataAnalytics.VDAFrequency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VDAFrequency",
+                        "printedName": "VponDataAnalytics.VDAFrequency",
+                        "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VponDataAnalytics@E@VDAFrequency@VDAFrequencyLow",
+            "mangledName": "$s17VponDataAnalytics12VDAFrequencyO3lowyA2CmF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VponDataAnalytics.VDAFrequency?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAFrequency",
+                    "printedName": "VponDataAnalytics.VDAFrequency",
+                    "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17VponDataAnalytics12VDAFrequencyO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17VponDataAnalytics12VDAFrequencyO8rawValueACSgSi_tcfc",
+            "moduleName": "VponDataAnalytics",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17VponDataAnalytics12VDAFrequencyO8rawValueSivp",
+            "mangledName": "$s17VponDataAnalytics12VDAFrequencyO8rawValueSivp",
+            "moduleName": "VponDataAnalytics",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17VponDataAnalytics12VDAFrequencyO8rawValueSivg",
+                "mangledName": "$s17VponDataAnalytics12VDAFrequencyO8rawValueSivg",
+                "moduleName": "VponDataAnalytics",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@VponDataAnalytics@E@VDAFrequency",
+        "mangledName": "$s17VponDataAnalytics12VDAFrequencyO",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VDAConfiguration",
+        "printedName": "VDAConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDAConfiguration",
+                "printedName": "VponDataAnalytics.VDAConfiguration",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(cpy)sharedInstance",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC14sharedInstanceACvpZ",
+            "moduleName": "VponDataAnalytics",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDAConfiguration",
+                    "printedName": "VponDataAnalytics.VDAConfiguration",
+                    "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(cm)sharedInstance",
+                "mangledName": "$s17VponDataAnalytics16VDAConfigurationC14sharedInstanceACvgZ",
+                "moduleName": "VponDataAnalytics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tracker",
+            "printedName": "tracker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDATracker",
+                "printedName": "VponDataAnalytics.VDATracker",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(py)tracker",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC7trackerAA10VDATrackerCvp",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDATracker",
+                    "printedName": "VponDataAnalytics.VDATracker",
+                    "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)tracker",
+                "mangledName": "$s17VponDataAnalytics16VDAConfigurationC7trackerAA10VDATrackerCvg",
+                "moduleName": "VponDataAnalytics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getVersion",
+            "printedName": "getVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)getVersion",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC10getVersionSSyF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLicenseKey",
+            "printedName": "setLicenseKey(_:withCustomID:withOptIn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VDAOptIn",
+                "printedName": "VponDataAnalytics.VDAOptIn",
+                "usr": "c:@M@VponDataAnalytics@E@VDAOptIn"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)setLicenseKey:withCustomID:withOptIn:",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC13setLicenseKey_12withCustomID0H5OptInySSSg_AgA06VDAOptL0OtF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDebugMode",
+            "printedName": "setDebugMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)setDebugMode:",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC12setDebugModeyySbF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)initialize",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC10initializeyyF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBackgroundLocationUpdate",
+            "printedName": "startBackgroundLocationUpdate(frequency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VDAFrequency",
+                "printedName": "VponDataAnalytics.VDAFrequency",
+                "hasDefaultArg": true,
+                "usr": "c:@M@VponDataAnalytics@E@VDAFrequency"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)startBackgroundLocationUpdateWithFrequency:",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC29startBackgroundLocationUpdate9frequencyyAA12VDAFrequencyO_tF",
+            "moduleName": "VponDataAnalytics",
+            "objc_name": "startBackgroundLocationUpdateWithFrequency:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopBackgroundLocationUpdate",
+            "printedName": "stopBackgroundLocationUpdate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)stopBackgroundLocationUpdate",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationC28stopBackgroundLocationUpdateyyF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDAConfiguration",
+                "printedName": "VponDataAnalytics.VDAConfiguration",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration(im)init",
+            "mangledName": "$s17VponDataAnalytics16VDAConfigurationCACycfc",
+            "moduleName": "VponDataAnalytics",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VponDataAnalytics@objc(cs)VDAConfiguration",
+        "mangledName": "$s17VponDataAnalytics16VDAConfigurationC",
+        "moduleName": "VponDataAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VDABuilder",
+        "printedName": "VDABuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createEventWithEventName",
+            "printedName": "createEventWithEventName(_:extraData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDABuilder",
+                "printedName": "VponDataAnalytics.VDABuilder",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder(cm)createEventWithEventName:extraData:",
+            "mangledName": "$s17VponDataAnalytics10VDABuilderC015createEventWithF4Name_05extraB0ACSSSg_SDySSypGSgtFZ",
+            "moduleName": "VponDataAnalytics",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDABuilder",
+                "printedName": "VponDataAnalytics.VDABuilder",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder(im)init",
+            "mangledName": "$s17VponDataAnalytics10VDABuilderCACycfc",
+            "moduleName": "VponDataAnalytics",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder",
+        "mangledName": "$s17VponDataAnalytics10VDABuilderC",
+        "moduleName": "VponDataAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VDATracker",
+        "printedName": "VDATracker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "VponDataAnalytics.VDABuilder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VDABuilder",
+                    "printedName": "VponDataAnalytics.VDABuilder",
+                    "usr": "c:@M@VponDataAnalytics@objc(cs)VDABuilder"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker(im)send:",
+            "mangledName": "$s17VponDataAnalytics10VDATrackerC4sendyyAA10VDABuilderCSgF",
+            "moduleName": "VponDataAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VDATracker",
+                "printedName": "VponDataAnalytics.VDATracker",
+                "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker(im)init",
+            "mangledName": "$s17VponDataAnalytics10VDATrackerCACycfc",
+            "moduleName": "VponDataAnalytics",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VponDataAnalytics@objc(cs)VDATracker",
+        "mangledName": "$s17VponDataAnalytics10VDATrackerC",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VponDataAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDALocationViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1931,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDALocationViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2030,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDALocationViewModel.swift",
+      "kind": "Array",
+      "offset": 2121,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDAConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDAConfigViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDAConfigViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDAConfigViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDAConfigViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDANetworkViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDANetworkViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDANetworkViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDANetworkViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDANetworkViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "\"auto\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 16,
+      "value": "\"continuous_geo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "\"auto\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 16,
+      "value": "\"continuous_geo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "Dictionary",
+      "offset": 398,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Interface\/VDABuilder.swift",
+      "kind": "Array",
+      "offset": 926,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 640,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 685,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Extensions\/VDAExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 114,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 7,
+      "value": "\"2.0.5\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 10,
+      "value": "\"20210514\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 4,
+      "value": "\"v1\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 7,
+      "value": "\"UTF-8\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 31,
+      "value": "\"vda.userdefault.systemVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 28,
+      "value": "\"vda.userdefault.appVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 29,
+      "value": "\"vda.userdefault.isFirstOpen\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 22,
+      "value": "\"vda.userdefault.ctid\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 32,
+      "value": "\"vda.userdefault.data.useragent\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 24,
+      "value": "\"vda.userdefault.config\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
+      "length": 32,
+      "value": "\"vda.userdefault.config.lastday\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 36,
+      "value": "\"vda.userdefault.config.retry.times\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 13,
+      "value": "\"update_time\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 26,
+      "value": "\"2023-05-10T16:00:00.000Z\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 14,
+      "value": "\"expired_time\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 7,
+      "value": "\"Never\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 7,
+      "value": "\"2.0.0\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 31,
+      "value": "\"update_to_default_retry_times\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1457,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 22,
+      "value": "\"ios_desired_accuracy\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
+      "length": 25,
+      "value": "\"kCLLocationAccuracyBest\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 16,
+      "value": "\"continuous_geo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 8,
+      "value": "\"option\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 6,
+      "value": "\"high\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1791,
+      "length": 16,
+      "value": "\"collect_period\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1809,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 26,
+      "value": "\"send_to_server_frequency\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1893,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2048,
+      "length": 8,
+      "value": "\"option\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2058,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2117,
+      "length": 16,
+      "value": "\"collect_period\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2135,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2191,
+      "length": 26,
+      "value": "\"send_to_server_frequency\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2219,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 8,
+      "value": "\"option\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2385,
+      "length": 5,
+      "value": "\"low\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 16,
+      "value": "\"collect_period\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2462,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 26,
+      "value": "\"send_to_server_frequency\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2546,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2697,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 18,
+      "value": "\"api-dmp.vpon.com\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 22,
+      "value": "\"api-dmp-dev.vpon.com\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2882,
+      "length": 14,
+      "value": "\"\/license_key\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 2938,
+      "length": 6,
+      "value": "\"\/sdk\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3010,
+      "length": 8,
+      "value": "\"\/bggeo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3038,
+      "length": 34,
+      "value": "\"D83EF3A1c5267d38Cd46kdFA9FBFD4D9\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3090,
+      "length": 18,
+      "value": "\"85A3A0B5AD8F3V82\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3147,
+      "length": 25,
+      "value": "\"SDK already initialize.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3216,
+      "length": 32,
+      "value": "\"Start SDK integration tests...\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3289,
+      "length": 35,
+      "value": "\"Checking SDK and device status...\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3377,
+      "length": 25,
+      "value": "\"License key is invalid.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3447,
+      "length": 30,
+      "value": "\"Succeed in initializing SDK.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3522,
+      "length": 112,
+      "value": "\"Fail to initialize SDK. Please check the required settings in Vpon Data SDK website: https:\/\/datasdk.vpon.com\/\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3676,
+      "length": 133,
+      "value": "\"Cannot collect triggered event data due to SDK initialization failure. Please check the required settings in Vpon Data SDK website.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3855,
+      "length": 34,
+      "value": "\"Checking triggered event data...\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 3942,
+      "length": 24,
+      "value": "\"Event type is invalid.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 35,
+      "value": "\"Succeed in collecting event data.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4095,
+      "length": 116,
+      "value": "\"Fail to collect event data. Please check the required settings in Vpon Data SDK website: https:\/\/datasdk.vpon.com\/\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4246,
+      "length": 33,
+      "value": "\"Pass all SDK integration tests.\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4322,
+      "length": 215,
+      "value": "\"Opt-in is not setup properly. Make sure your App users agree your App privacy policy and modify opt-in as 1 when initializing SDK. For more details, please refer to Vpon Data SDK website: https:\/\/datasdk.vpon.com\/\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4595,
+      "length": 8,
+      "value": "\"[Info]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4621,
+      "length": 9,
+      "value": "\"[Error]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4650,
+      "length": 11,
+      "value": "\"[Warning]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4679,
+      "length": 9,
+      "value": "\"[Debug]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 12,
+      "value": "\"[Internal]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4595,
+      "length": 8,
+      "value": "\"[Info]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4621,
+      "length": 9,
+      "value": "\"[Error]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4650,
+      "length": 11,
+      "value": "\"[Warning]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4679,
+      "length": 9,
+      "value": "\"[Debug]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 12,
+      "value": "\"[Internal]\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4801,
+      "length": 9,
+      "value": "\"cronjob\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4826,
+      "length": 16,
+      "value": "\"eventTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4858,
+      "length": 10,
+      "value": "\"customId\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4884,
+      "length": 9,
+      "value": "\"sdkName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4909,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4937,
+      "length": 12,
+      "value": "\"licenseKey\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 10,
+      "value": "\"encoding\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4991,
+      "length": 16,
+      "value": "\"deviceFullName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5023,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5075,
+      "length": 19,
+      "value": "\"limitedAdTracking\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5110,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5132,
+      "length": 10,
+      "value": "\"wifiSSID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5158,
+      "length": 11,
+      "value": "\"wifiBSSID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5185,
+      "length": 13,
+      "value": "\"locLatitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5214,
+      "length": 14,
+      "value": "\"locLongitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
+      "length": 13,
+      "value": "\"locAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 13,
+      "value": "\"locAltitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5302,
+      "length": 12,
+      "value": "\"locBearing\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5330,
+      "length": 10,
+      "value": "\"locSpeed\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5356,
+      "length": 13,
+      "value": "\"networkInfo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5385,
+      "length": 19,
+      "value": "\"mobileCountryCode\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5420,
+      "length": 19,
+      "value": "\"mobileNetworkCode\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5455,
+      "length": 13,
+      "value": "\"screenWidth\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5484,
+      "length": 14,
+      "value": "\"screenHeight\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5514,
+      "length": 15,
+      "value": "\"systemVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5545,
+      "length": 9,
+      "value": "\"density\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5570,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 13,
+      "value": "\"deviceBrand\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5626,
+      "length": 10,
+      "value": "\"deviceOS\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5652,
+      "length": 10,
+      "value": "\"bundleID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5678,
+      "length": 11,
+      "value": "\"locGpsAge\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5705,
+      "length": 15,
+      "value": "\"locDesiredAcc\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5736,
+      "length": 16,
+      "value": "\"locVerticalAcc\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5768,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5794,
+      "length": 11,
+      "value": "\"radioType\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5821,
+      "length": 15,
+      "value": "\"locAuthStatus\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5852,
+      "length": 7,
+      "value": "\"optIn\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5875,
+      "length": 11,
+      "value": "\"eventUUID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5902,
+      "length": 10,
+      "value": "\"timeZone\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5928,
+      "length": 18,
+      "value": "\"configUpdateTime\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5962,
+      "length": 15,
+      "value": "\"configVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 22,
+      "value": "\"autoCollectEventName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6031,
+      "length": 10,
+      "value": "\"vendorID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6057,
+      "length": 6,
+      "value": "\"ctID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 19,
+      "value": "\"batteryPercentage\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6114,
+      "length": 15,
+      "value": "\"batteryStatus\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 20,
+      "value": "\"preciseLocationTag\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4801,
+      "length": 9,
+      "value": "\"cronjob\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4826,
+      "length": 16,
+      "value": "\"eventTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4858,
+      "length": 10,
+      "value": "\"customId\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4884,
+      "length": 9,
+      "value": "\"sdkName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4909,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4937,
+      "length": 12,
+      "value": "\"licenseKey\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 10,
+      "value": "\"encoding\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 4991,
+      "length": 16,
+      "value": "\"deviceFullName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5023,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5075,
+      "length": 19,
+      "value": "\"limitedAdTracking\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5110,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5132,
+      "length": 10,
+      "value": "\"wifiSSID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5158,
+      "length": 11,
+      "value": "\"wifiBSSID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5185,
+      "length": 13,
+      "value": "\"locLatitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5214,
+      "length": 14,
+      "value": "\"locLongitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
+      "length": 13,
+      "value": "\"locAccuracy\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 13,
+      "value": "\"locAltitude\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5302,
+      "length": 12,
+      "value": "\"locBearing\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5330,
+      "length": 10,
+      "value": "\"locSpeed\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5356,
+      "length": 13,
+      "value": "\"networkInfo\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5385,
+      "length": 19,
+      "value": "\"mobileCountryCode\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5420,
+      "length": 19,
+      "value": "\"mobileNetworkCode\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5455,
+      "length": 13,
+      "value": "\"screenWidth\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5484,
+      "length": 14,
+      "value": "\"screenHeight\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5514,
+      "length": 15,
+      "value": "\"systemVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5545,
+      "length": 9,
+      "value": "\"density\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5570,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 13,
+      "value": "\"deviceBrand\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5626,
+      "length": 10,
+      "value": "\"deviceOS\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5652,
+      "length": 10,
+      "value": "\"bundleID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5678,
+      "length": 11,
+      "value": "\"locGpsAge\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5705,
+      "length": 15,
+      "value": "\"locDesiredAcc\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5736,
+      "length": 16,
+      "value": "\"locVerticalAcc\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5768,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5794,
+      "length": 11,
+      "value": "\"radioType\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5821,
+      "length": 15,
+      "value": "\"locAuthStatus\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5852,
+      "length": 7,
+      "value": "\"optIn\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5875,
+      "length": 11,
+      "value": "\"eventUUID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5902,
+      "length": 10,
+      "value": "\"timeZone\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5928,
+      "length": 18,
+      "value": "\"configUpdateTime\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5962,
+      "length": 15,
+      "value": "\"configVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 22,
+      "value": "\"autoCollectEventName\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6031,
+      "length": 10,
+      "value": "\"vendorID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6057,
+      "length": 6,
+      "value": "\"ctID\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 19,
+      "value": "\"batteryPercentage\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6114,
+      "length": 15,
+      "value": "\"batteryStatus\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 20,
+      "value": "\"preciseLocationTag\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6221,
+      "length": 8,
+      "value": "\"option\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6261,
+      "length": 16,
+      "value": "\"collect_period\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/VDADefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 6317,
+      "length": 26,
+      "value": "\"send_to_server_frequency\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDADeviceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/ViewModels\/VDADeviceViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 25,
+      "value": "\"kCLLocationAccuracyBest\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 6,
+      "value": "\"high\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 882,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1085,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1294,
+      "length": 5,
+      "value": "\"low\""
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1380,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/judy.tsai\/ios-vda-integration\/VponDataAnalytics\/VponDataAnalytics\/Models\/VDAConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 2,
+      "value": "15"
+    }
+  ]
+}
