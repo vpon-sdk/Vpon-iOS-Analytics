@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     
     VDAConfiguration *config = [VDAConfiguration sharedInstance];
-    [config setLicenseKey:@"testkey" withCustomID:@"customID" withOptIn:VDAOptInConsent];
+    [config setLicenseKey:@"testkey" withCustomID:@"customID" withOptIn:VDAOptInDefault];
     [config setDebugMode:YES];
     [config initialize];
     
