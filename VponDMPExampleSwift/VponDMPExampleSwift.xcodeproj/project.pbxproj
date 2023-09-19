@@ -18,7 +18,7 @@
 		0679B95B256B99C9002FE708 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95A256B99C9002FE708 /* CoreTelephony.framework */; };
 		0679B95D256B99D1002FE708 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95C256B99D1002FE708 /* WebKit.framework */; };
 		0679B95F256B99D6002FE708 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0679B95E256B99D6002FE708 /* AdSupport.framework */; };
-		D0BB39B02A1385D200BBD7CE /* VponDataAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */; };
+		D0CC803D2AB973DD00DCDBA6 /* VponDataAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CC803C2AB973DC00DCDBA6 /* VponDataAnalytics.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		0679B95A256B99C9002FE708 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0679B95C256B99D1002FE708 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		0679B95E256B99D6002FE708 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VponDataAnalytics.xcframework; sourceTree = "<group>"; };
+		D0CC803C2AB973DC00DCDBA6 /* VponDataAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VponDataAnalytics.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 				0679B959256B99C2002FE708 /* SystemConfiguration.framework in Frameworks */,
 				0679B955256B9970002FE708 /* CoreMotion.framework in Frameworks */,
 				0679B95F256B99D6002FE708 /* AdSupport.framework in Frameworks */,
-				D0BB39B02A1385D200BBD7CE /* VponDataAnalytics.xcframework in Frameworks */,
+				D0CC803D2AB973DD00DCDBA6 /* VponDataAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		0679B953256B9970002FE708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0BB39AF2A1385D200BBD7CE /* VponDataAnalytics.xcframework */,
+				D0CC803C2AB973DC00DCDBA6 /* VponDataAnalytics.xcframework */,
 				0679B95E256B99D6002FE708 /* AdSupport.framework */,
 				0679B95C256B99D1002FE708 /* WebKit.framework */,
 				0679B95A256B99C9002FE708 /* CoreTelephony.framework */,
@@ -323,8 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55Z8U5LW3G;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				DEVELOPMENT_TEAM = 65QQ97XV3Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VponDMPExampleSwift",
@@ -339,7 +338,7 @@
 					"$(PROJECT_DIR)/VponDMPExampleSwift/VponDMP",
 					"$(PROJECT_DIR)/VponDMPExampleSwift",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpontw.VponDMPExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VponDMPExampleSwift/VponDMPExampleSwift-Bridging-Header.h";
@@ -356,8 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55Z8U5LW3G;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				DEVELOPMENT_TEAM = 65QQ97XV3Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VponDMPExampleSwift",

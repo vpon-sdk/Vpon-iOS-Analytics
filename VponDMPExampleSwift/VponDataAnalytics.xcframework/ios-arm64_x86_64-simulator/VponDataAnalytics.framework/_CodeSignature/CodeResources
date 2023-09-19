@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VponDataAnalytics-Swift.h</key>
 		<data>
-		tbZWiDEZtUAWfLkaxUb8eikrxi8=
+		fHbpvfa2dI8Qu0aVF6GJoeyG8/M=
 		</data>
 		<key>Headers/VponDataAnalytics.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nztKT5GsQcG7r4l76eh9xE1T4D0=
+		PVxZfH8BIygIoAmXXPkz6xPHI2I=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JIdAGjpX9jZr4ht4Htq0w/E2DQY=
+		/+hxv0wzCDtx7TKJ3oVE9m7ZXJg=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Q8B+rDcELo/KZXUZ1aPL36mYok8=
+		IHy9wn2IBULpz8Dy9wUb0suQEjo=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zavTLlvLAicg7CY12wtj2aS6u9E=
+		mXUgg0uf4MyWbXJqsvdGs4aAsf8=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q8B+rDcELo/KZXUZ1aPL36mYok8=
+		IHy9wn2IBULpz8Dy9wUb0suQEjo=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S6Mp/XnYqc9FMqf0Xa2uF4tlpgQ=
+		nspNQWjHvqiYdgMqs0OGktaq1w8=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JIdAGjpX9jZr4ht4Htq0w/E2DQY=
+		/+hxv0wzCDtx7TKJ3oVE9m7ZXJg=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		owEPTfZ4nVTUQQXUhQnQxvXGpNk=
+		ncefuJSbu5HXx1pLwDmJoL9hu8s=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nbqQzBWPn815N3TEUveLRxgbpxE=
+		KCq2X6HIpNCHJ21blqz4ERYWUAk=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		owEPTfZ4nVTUQQXUhQnQxvXGpNk=
+		ncefuJSbu5HXx1pLwDmJoL9hu8s=
 		</data>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/HwwYp0NaaTQ5M6fKXrqtf/yRTg=
+		9SxY/ApZ6JtR//4fDy6MI9Rniqg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tbZWiDEZtUAWfLkaxUb8eikrxi8=
+			fHbpvfa2dI8Qu0aVF6GJoeyG8/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			/2BjqQW680J1Qulv5g5i4elVqfYUxyWXzMuj1ql+kRw=
+			2JnCv3B2SAM3rPPaBSO0lUBwRzGnb/+sMkGZ0NDbBzI=
 			</data>
 		</dict>
 		<key>Headers/VponDataAnalytics.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JIdAGjpX9jZr4ht4Htq0w/E2DQY=
+			/+hxv0wzCDtx7TKJ3oVE9m7ZXJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ABin3CnNDGGrddAZOfT4y/sAzQhYj9HlhtPvxYgt6BU=
+			LhXcswXfUtZXhWGH9iiDF/jVI+3Qjzk+r5lUdhSOi5s=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q8B+rDcELo/KZXUZ1aPL36mYok8=
+			IHy9wn2IBULpz8Dy9wUb0suQEjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bh405WdD1HY2B6Jt8woo154oZfeo2rcQjmT163blWWQ=
+			hfkZhbQUabn2UEktUninBbcHKWTW8MCCSc2PlhZNnzA=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zavTLlvLAicg7CY12wtj2aS6u9E=
+			mXUgg0uf4MyWbXJqsvdGs4aAsf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPJ0d+Tqqfe9r+joPbeW3WbEoYD5yVLr0lmesj6I8cw=
+			2Ru1iT/H3YcC5Q1X3/zq2S+xRJ6kvuHFS1i8ZXBa1L8=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q8B+rDcELo/KZXUZ1aPL36mYok8=
+			IHy9wn2IBULpz8Dy9wUb0suQEjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bh405WdD1HY2B6Jt8woo154oZfeo2rcQjmT163blWWQ=
+			hfkZhbQUabn2UEktUninBbcHKWTW8MCCSc2PlhZNnzA=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S6Mp/XnYqc9FMqf0Xa2uF4tlpgQ=
+			nspNQWjHvqiYdgMqs0OGktaq1w8=
 			</data>
 			<key>hash2</key>
 			<data>
-			c6TYS7S2ckKVP0cPyL54J244K6G27lWsdQ/QoVyzZcA=
+			xq/VJhusOi93imIHlg2CK4M6vr0XigyvnYwrajjIYt8=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JIdAGjpX9jZr4ht4Htq0w/E2DQY=
+			/+hxv0wzCDtx7TKJ3oVE9m7ZXJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ABin3CnNDGGrddAZOfT4y/sAzQhYj9HlhtPvxYgt6BU=
+			LhXcswXfUtZXhWGH9iiDF/jVI+3Qjzk+r5lUdhSOi5s=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			owEPTfZ4nVTUQQXUhQnQxvXGpNk=
+			ncefuJSbu5HXx1pLwDmJoL9hu8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			R+BcxIEGUfvHPF875y7315sML++jzFeoK3Bzl3hMDx4=
+			4H89CARTmHeNDSxi0EaOuvQV82Hn9JutvtU8OpR9eB4=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nbqQzBWPn815N3TEUveLRxgbpxE=
+			KCq2X6HIpNCHJ21blqz4ERYWUAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9xNAtbuDXgX6hIGunrHvBVTH9u8PUrTJ7xIQT0pEuLs=
+			5hX/rwJ/+9sYq0e4lgRZhvlT3Cb2WBuValnJPt6XubQ=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			owEPTfZ4nVTUQQXUhQnQxvXGpNk=
+			ncefuJSbu5HXx1pLwDmJoL9hu8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			R+BcxIEGUfvHPF875y7315sML++jzFeoK3Bzl3hMDx4=
+			4H89CARTmHeNDSxi0EaOuvQV82Hn9JutvtU8OpR9eB4=
 			</data>
 		</dict>
 		<key>Modules/VponDataAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/HwwYp0NaaTQ5M6fKXrqtf/yRTg=
+			9SxY/ApZ6JtR//4fDy6MI9Rniqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hsKoWkXgK+tuE/mlkf1aldArtEOfnb3H5zU3PL4CRRQ=
+			B5LBjH1Wo1T9Iw9b8vVsNgfDthSXH2HwTgoMaFR642g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
